@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  background-image: url("./HeroImage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1204px;
+  margin: 30px auto;
+  margin-bottom: 95px;
+}
+
+.logo {
+  width: 101px;
+  height: 35px;
+  background-image: url("./logo\ 1.png");
+}
+
+.menu {
+  display: flex;
+  gap: 24px;
+}
+
+.menu-item {
+  width: 100px;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.language {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.pure-magic {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 80px;
+  color: #e8edf2b8;
+  margin: 0;
+}
+
+.awaits {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 250px;
+  color: #fdfdfefa;
+  margin: 0;
+}
+
+.year {
+  font-family: "Hanuman", serif;
+  font-size: 64px;
+  font-weight: 900;
+  margin: 0;
+  color: #ffffffcc;
+}
+
+.hero-text {
+  text-align: center;
+}
+.locations {
+  background-image: url("./Location\ image\ \(1\).png");
+  height: 500px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.location1 {
+  width: 276px;
+  height: 370px;
+  background-image: url(./Hover\ card\ image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 40px;
+  box-shadow: 8px 8px 0px 0px #29728b40;
+  box-shadow: -8px -8px 0px 0px #1f72aa75;
+}
+.location2 {
+  width: 276px;
+  height: 370px;
+  background-image: url("./Untitled.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 40px;
+  box-shadow: 8px 8px 0px 0px #29728b40;
+  box-shadow: -8px -8px 0px 0px #1f72aa75;
+}
+.location3 {
+  width: 276px;
+  height: 370px;
+  background-image: url("./Hover\ card\ image\ \(2\).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 40px;
+  box-shadow: 8px 8px 0px 0px #29728b40;
+  box-shadow: -8px -8px 0px 0px #1f72aa75;
+}
+.location4 {
+  width: 276px;
+  height: 370px;
+  background-image: url("./Hover\ card\ image\ \(3\).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 40px;
+  box-shadow: 8px 8px 0px 0px #29728b40;
+  box-shadow: -8px -8px 0px 0px #1f72aa75;
+}
+.roadmap {
+  background-image: url("./roadmap.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1022px;
+
+  padding: 120px 0;
+}
+.map-items {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.map-item {
+  width: 513px;
+  border-radius: 120px;
+  background-color: #eee9d9;
+  padding: 32px 30px;
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+}
+.map-item-day {
+  width: 52px;
+  height: 52px;
+  background-color: #f7f6f3;
+  border-radius: 50%;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.map-item-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+}
+.map-item-subtitle {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  gap: 12px;
+}
+.roadmap-text {
+  font-family: Inter;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+}
+.our-agensy {
+  font-weight: 600;
+  font-size: 42px;
+  color: #000;
+}
+.packbag {
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #18181bb2;
+}
+.footer {
+  background-image: url(./Price&Footer\ image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1120px;
+  padding: 120px 0;
+}
+.footer-title {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  color: #000;
+}
+.footer-subtitle {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: capitalize;
+  color: #18181bb2;
+}
+.box {
+  width: 384px;
+  height: 527px;
+  border-radius: 40px;
+  background-color: #fafbfc;
+  display: flex;
+  flex-direction: column;
+}
+.price-boxes {
+  margin-top: 100px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  color: #000;
+}
+
+.box-header {
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  gap: 16px;
+  color: #000 ;
+  font-size: 18px;
+}
+.box-body {
+  /* height: 317px; */
+}
+.box-footer {
+  /* height: 130px; */
+}
+.price {
+font-family: Montserrat;
+font-weight: 600;
+font-size: 40px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: bottom;
+}
